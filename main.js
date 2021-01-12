@@ -1,4 +1,4 @@
-const pianoKeys = ["A", "S", "D", "F", "G", "H", "J"];
+const pianoKeys = ["A", "S", "D", "F", "G", "H", "J", "E", "T", "U", "W", "Y"];
 
 document.addEventListener("keypress", (event) => {
   const keyUpper = event.key.toUpperCase();

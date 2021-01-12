@@ -1,6 +1,5 @@
 body {
-    background-color: #b272ee;
-    font-family: calibri;
+    background-color: #8ad3cf;
 }
 
 .container {
@@ -12,13 +11,54 @@ body {
     transform: translate(-50%, -50%);
 }
 
-kbd {
+.white-keys kbd {
     background-color: #fff;
     display: inline-block;
-    width: 50px;
+    height: 20px;
+    width: 90px;
     margin-left: -5px;
     border: 1px solid #000;
-    padding-top: 200px;
-    padding-bottom: 10px;
+    padding-top: 250px;
+    padding-bottom: 30px;
     text-align: center;
+    font-family: "McLaren", bold;
+    z-index: 1;
+    position: relative;
+
+}
+
+.black-keys kbd {
+    display: inline-block;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 30px;
+    font-family: "McLaren", bold;
+    z-index: 2;
+}
+
+.black-keys kbd:nth-child(1) {
+    left: 68px;
+
+}
+
+.black-keys kbd:nth-child(2) {
+    left: 160px;
+
+}
+
+.black-keys kbd:nth-child(3) {
+    left: 342px;
+}
+
+.black-keys kbd:nth-child(4) {
+    left: 433px;
+}
+
+.black-keys kbd:nth-child(5) {
+    left: 523px;
 }
